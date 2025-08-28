@@ -48,21 +48,3 @@ int main(){
 
     return 0;
 }
-
-
-/*Faça um programa em C que solicite ao usuário dois valores reais e exiba um
-menu com quatro opções de operações de matemática básicas: soma,
-subtração, multiplicação e divisão. O programa deve:
-Solicita ao usuário dois valores reais.
-Apresentar um menu ao usuário com as opções: (1 para soma, 2 para
-subtração, 3 para multiplicação, 4 para divisão).
-Utilizar a estrutura switch para executar a operação escolhida pelo usuário.
-Para divisão: Verifique se o número é diferente de zero, caso seja zero imprima
-“Erro. Divisão por zero”.
-Entrada:
-Primeiro numero: 2
-Segundo numero: 5
-Opção escolhida: 1
-Saída:
-A soma de 2 + 5 é 7
-*/
