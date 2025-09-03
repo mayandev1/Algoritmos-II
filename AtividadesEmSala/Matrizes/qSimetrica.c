@@ -30,6 +30,7 @@ int main(){
         for (int j = 0; j < n; j++){
             if (matriz[i][j] != matriz[j][i]){
                 simetrica = 0;
+                break;
             }
         }
     }
