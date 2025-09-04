@@ -7,7 +7,7 @@ int main(){
     printf("Digite seu peso e altura:\n");
     scanf("%f %f", &peso, &altura);
 
-    imc = peso/(altura * altura);
+    imc = peso / (altura * altura);
 
     if (imc < 18.5){
         printf("IMC: %.2f\n", imc);
