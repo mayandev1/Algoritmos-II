@@ -19,9 +19,9 @@ int main(){
     }
     
     if (apenasLetras){
-        printf("\nApenas letras!");
+        printf("Apenas letras!\n");
     } else {
-        printf("\nContem outros caracteres\n");
+        printf("Contem outros caracteres\n");
     }
     
     return 0;
