@@ -55,9 +55,9 @@ void ConsultarLivro(Livro livros[], int n){
             printf("Codigo: %d\n", livros[i].codigo);
 
             if (livros[i].disponivel == 1){
-                printf("Disponivel: Sim\n");
+                printf("Disponivel\n");
             } else {
-                printf("Disponivel: Nao\n");
+                printf("Emprestado\n");
             }
 
             encontrado = 1;
