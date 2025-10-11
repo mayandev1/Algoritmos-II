@@ -8,7 +8,7 @@ int main(){
     scanf("%d %d", &A, &B);
 
     printf("Numeros abundantes entre %d e %d: \n", A, B);
-    for (int i = A; i < B; i++){
+    for (int i = A; i <= B; i++){
         soma = 0;
         for (int j = 1; j < i; j++){
             if (i % j == 0){
