@@ -29,6 +29,6 @@ int main(){
         }
     }
 
-    printf("O segundo maior numero eh: %d\n", segundoMaior);
+    printf("\nO segundo maior numero eh: %d\n", segundoMaior);
     return 0;
 }
